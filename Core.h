@@ -2,6 +2,7 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
+#include <cmath>
 #include <string>
 #include <vector>
 #include <unordered_map>
