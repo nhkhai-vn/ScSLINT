@@ -4,7 +4,7 @@ A scalable framework for instance matching on linked data: it finds the resource
 
 > Khai Nguyen and Ryutaro Ichise. [ScSLINT: Time and Memory Efficient Interlinking Framework for Linked Data](https://ceur-ws.org/Vol-1486/paper_34.pdf). Proceedings of the 14th International Semantic Web Conference, Posters and Demonstrations Track. CEUR-WS.org, vol. 1486, 2015.
 
-The original release, the indexing tools and the datasets are on the [project page](https://www.ai.iee.eng.isct.ac.jp/ScSLINT/index.html). Copyright © Ichise Laboratory.
+The original release, the indexing tools and the datasets are on the [project page](https://www.ai.iee.eng.isct.ac.jp/ScSLINT/index.html).
 
 ## Build
 
@@ -44,3 +44,7 @@ Each step can also run alone:
 | `collect` | evaluate a step's output against the labeled links |
 
 Other parameters: `thread`, `topsim` (number of similarity functions kept), `filtering`, `temp` (working directory), `log` (log file, default `<timestamp>.txt`).
+
+## License
+
+[Apache-2.0](LICENSE), with the agreement of Ichise Laboratory.
